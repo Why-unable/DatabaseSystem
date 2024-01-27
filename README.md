@@ -54,7 +54,7 @@ mysqldump -u root -p data > C:\Users\YourUsername\backup.sql
 如果在powershell运行命令，导出的数据库sql文件可能会出现中文乱码
 ```
 
-###### 导入数据库
+###### 导入数据表
 
 ```
 mysql -u username -p database_name < file.sql
