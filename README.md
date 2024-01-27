@@ -28,8 +28,8 @@ set SavePath=C:\dbs
 
 REM MySQL连接信息
 set DBUser=root
-set DBPassword=123456
-set DBName=data
+set DBPassword=你的密码
+set DBName=你的数据库名
 
 REM 获取所有表名
 mysql -u %DBUser% -p%DBPassword% -N -B -e "SHOW TABLES" %DBName% > tables.txt
